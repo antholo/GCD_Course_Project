@@ -4,7 +4,7 @@ variables, the data, and any transformations or work that you performed to clean
 This code book describes the data in the tidy data set produced by the run_analysis.R script in this repository.
 
 ## Source Data
-The original data comes from the Human Activity Recognition Using Smartphones dataset hosted by the University of California, Irvine. See the citation at the end of this document for more information.
+The original data comes from the [Human Activity Recognition Using Smartphones dataset] (https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#) hosted by the University of California, Irvine. See the citation at the end of this document for more information.
 
 This dataset uses the following files from the source data:
 * features.txt: variable names for measurements collected
@@ -30,21 +30,21 @@ The original dataset's features_info.txt file describes the remaining variables 
 
 The remaining variables are:
 * Acceleration signals created using low pass Butterworth filer with corner frequency of 0.3
-** BodyAcc: Body acceleration portion of acceleration signal
-** GravityAcc: Gravity acceleration portion of acceleration signal
+    + BodyAcc: Body acceleration portion of acceleration signal
+    + GravityAcc: Gravity acceleration portion of acceleration signal
 * BodyGyro: body angular velocity signal
 * Jerk signals derived from body linear acceleration and angular velocity
-** BodyAccJerk: Body linear acceleration jerk signal
-** BodyGyroJerk: Body angular velocity jerk signal
+    + BodyAccJerk: Body linear acceleration jerk signal
+    + BodyGyroJerk: Body angular velocity jerk signal
 * Magnitude signals calculated using Euclidian norm
-** BodyAccMag: Body acceleration magnitude signal
-** GravityAccMag: Gravity linear acceleration magnitude signal
-** BodyGyroMag: Body angular velocity magnitude signal
-** BodyAccJerkMag: Body linear acceleration jerk magnitude signal
-** BodyGyroJerkMag: Body angular velocity jerk magnitude signal
-** BodyBodyAccJerkMag: undefined in original dataset, potentially a typo for the BodyAccJerkMag variable
-** BodyBodyGyroMag: undefined in original dataset, potentially a typo for the BodyGyroMag variable
-** BodyBodyGyroJerkMag:undefined in original dataset, potentially a typo for the BodyGyroJerkMag variable
+    + BodyAccMag: Body acceleration magnitude signal
+    + GravityAccMag: Gravity linear acceleration magnitude signal
+    + BodyGyroMag: Body angular velocity magnitude signal
+    + BodyAccJerkMag: Body linear acceleration jerk magnitude signal
+    + BodyGyroJerkMag: Body angular velocity jerk magnitude signal
+    + BodyBodyAccJerkMag: undefined in original dataset, potentially a typo for the BodyAccJerkMag variable
+    + BodyBodyGyroMag: undefined in original dataset, potentially a typo for the BodyGyroMag variable
+    + BodyBodyGyroJerkMag:undefined in original dataset, potentially a typo for the BodyGyroJerkMag variable
 
-##Citation
+##Dataset Credits
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
